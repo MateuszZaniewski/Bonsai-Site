@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/32c97c3ba8.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/32c97c3ba8.js" crossorigin="anonymous"></script>
     <title>Bonsai Site</title>
     
 </head>
@@ -20,37 +19,44 @@
             <div class="logo_container navbar__div">
                 <img src="assets/logo.svg" alt="">
             </div>
-            <div class="navbar__category navbar__div">
-                <ul>
-                    <div class="dropdown">
-                        <li>Product <i class="fa-thin fa-angle-down"></i></li>
-                        
-                        <div class="dropdown-content">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>
-                      </div>
-                      <div class="dropdown">
-                        <li>Templates <i class="fa-light fa-chevron-down"></i></li>
-                        <div class="dropdown-content">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
-                        </div>
-                      </div>
-                    <li>Pricing</li>
-                    <li>Reviews</li>
-                </ul>
-            </div>
-            <div class="navbar__login navbar__div">
-                <a href="#"><span>LOG IN</span></a>
-            </div>
-            <div class="navbar__startSpan navbar__div">
-                <a href="#"><span>START FREE</span></a>
+            <div class="hamburger--Menu">
+                
             </div>
         </nav>
     </header>
+    <aside class="menu--mobile hidden">
+        <div class="navbar__category navbar__div">
+            <ul>
+                <div class="dropdown">
+                    <li>Product <img src="assets/down.PNG" alt=""></li>
+                    
+                    
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <li>Templates <img src="assets/down.PNG" alt=""></li>
+                    
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                <li>Pricing</li>
+                <li>Reviews</li>
+            </ul>
+        </div>
+        <div class="navbar__login navbar__div">
+            <a href="#"><span>LOG IN</span></a>
+        </div>
+        <div class="navbar__startSpan navbar__div">
+            <a href="#"><span>START FREE</span></a>
+        </div>
+    </aside>
     
     <script src="js/main.js"></script>
 </body>
