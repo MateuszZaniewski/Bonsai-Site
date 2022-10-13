@@ -113,6 +113,9 @@ nav .hamburger--Menu.open::after {
   margin-top: 1.5rem;
   font-size: 1.3rem;
 }
+.menu--mobile .navbar__login:hover, .menu--mobile .navbar__startSpan:hover {
+  opacity: 0.9;
+}
 .menu--mobile .navbar__login a, .menu--mobile .navbar__startSpan a {
   text-decoration: none;
   color: #00b289;
@@ -123,4 +126,36 @@ nav .hamburger--Menu.open::after {
 }
 .menu--mobile .navbar__startSpan a {
   color: #ffffff;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+main .heroImage {
+  width: 100%;
+}
+main h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 52px;
+  margin-bottom: 2rem;
+}
+main p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+main #emailSubmit {
+  margin: 0;
+  padding: 0;
+}
+main #emailSubmit input {
+  padding: 1.5rem 1rem;
+}
+main #emailSubmit button {
+  padding: 1.5rem 1rem;
 }/*# sourceMappingURL=main.css.map */

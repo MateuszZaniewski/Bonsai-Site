@@ -140,6 +140,10 @@ nav {
         margin-top: 1.5rem;
         font-size: 1.3rem;
 
+        &:hover {
+            opacity: 0.9;
+        }
+
         & a {
             text-decoration: none;
             color: $primary--green;
@@ -156,3 +160,43 @@ nav {
 }
 
 
+main {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    
+
+    & .heroImage {
+        width: 100%;
+    }
+
+    & h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        line-height: 52px;
+        margin-bottom: 2rem;
+    }
+
+    & p {
+        font-size: 1.6rem;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    & #emailSubmit {
+        margin: 0;
+        padding: 0;
+
+        & input {
+            padding: 1.5rem 1rem;
+            
+        }
+
+        & button {
+            padding: 1.5rem 1rem;
+            
+        }
+    }
+}
