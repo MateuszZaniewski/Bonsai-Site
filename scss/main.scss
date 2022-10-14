@@ -79,11 +79,13 @@ nav {
 }
 
 .menu--mobile {
-    width: 90%;
-    margin: 0 auto;
-    z-index : 99;
-    height: 100vh;
+    width: 100%;
+    padding: 10% 2rem 0 2rem;
+    position: absolute;
+    height: 92.5vh;
+    z-index : 5;
     background-color: $primary--white;
+    @include transition-ease;
 
 
     .navbar__category {
@@ -91,12 +93,14 @@ nav {
         flex-flow: column nowrap;
         font-size: 1.7rem;
         margin-top: 10%;
+        @include transition-ease;
 
         .dropdown-content {
             display: none;
             background-color: #f9f9f9;
             min-width: 100%;
             z-index: 1;
+            @include transition-ease;
           }
         
         .dropdown-content a {
@@ -106,10 +110,12 @@ nav {
             text-decoration: none;
             display: block;
             text-align: left;
+            @include transition-ease;
           }
         
           .dropdown:hover .dropdown-content {
             display: block;
+            @include transition-ease;
           }
 
         & ul {
@@ -188,14 +194,23 @@ main {
     & #emailSubmit {
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: left;
+        align-items: center;
 
         & input {
-            padding: 1.5rem 1rem;
+            padding: 1.5rem 1.75rem;
+            border: 1px solid $primary--green;
+            
             
         }
 
         & button {
-            padding: 1.5rem 1rem;
+            padding: 1.5rem 1.6rem;
+            border: 1px solid $primary--green;
+            background-color: $primary--green;
+            color: $primary--white;
+            border-radius: 0.5rem;
             
         }
     }
