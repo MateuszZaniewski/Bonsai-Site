@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #fcfafa;
 }
 
 html{
@@ -13,6 +14,15 @@ html{
 
 .hidden {
     display: none;
+}
+
+body {
+    width: 100%;
+}
+
+header{
+    width: 90%;
+    margin: 0 auto;
 }
 
 nav {
@@ -241,4 +251,67 @@ main {
             
         }
     }
+}
+
+.bonsaiH2 {
+    padding-top: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    
+
+    & h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    & p {
+        font-size: 1.6rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    & h3 {
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 8% 8%;
+    }
+
+    & img {
+        max-width: 95%;
+    }
+
+    & .proposal--anchor {
+        margin: 5% 5%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0.5rem 2rem;
+        background-color: $primary--white;
+
+        & a {
+            text-decoration: none;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            column-gap: 2rem;
+            background-color: $primary--white;
+
+            & span {
+                font-size: 1.8rem;
+                width: 40%;
+                background-color: $primary--white;
+            }
+
+            & #right {
+                padding-left: 50%;
+                background-color: $primary--white;
+                justify-self: flex-end;
+            }
+        }
+
+        
+    }
+
 }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #fcfafa;
 }
 
 html {
@@ -10,6 +11,15 @@ html {
 
 .hidden {
   display: none;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
 }
 
 nav {
@@ -193,4 +203,56 @@ main #emailSubmit button {
   background-color: #00b289;
   color: #ffffff;
   border-radius: 0.5rem;
+}
+
+.bonsaiH2 {
+  padding-top: 8rem;
+  font-family: "Montserrat", sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+.bonsaiH2 h2 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+.bonsaiH2 p {
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 5%;
+}
+.bonsaiH2 h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 8% 8%;
+}
+.bonsaiH2 img {
+  max-width: 95%;
+}
+.bonsaiH2 .proposal--anchor {
+  margin: 5% 5%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem 2rem;
+  background-color: #ffffff;
+}
+.bonsaiH2 .proposal--anchor a {
+  text-decoration: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  background-color: #ffffff;
+}
+.bonsaiH2 .proposal--anchor a span {
+  font-size: 1.8rem;
+  width: 40%;
+  background-color: #ffffff;
+}
+.bonsaiH2 .proposal--anchor a #right {
+  padding-left: 50%;
+  background-color: #ffffff;
+  justify-self: flex-end;
 }/*# sourceMappingURL=main.css.map */
