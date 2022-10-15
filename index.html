@@ -29,23 +29,23 @@
         <div class="navbar__category navbar__div">
             <ul>
                 <div class="dropdown">
-                    <li>Product <img class="dropdown__IMG" src="assets/down.PNG" alt=""></li>
+                    <li class="dropdown__fourMainList">Product <img class="dropdown__IMG" src="assets/down.PNG" alt=""></li>
                     
                     
                     <div class="dropdown-content">
-                        <li class="dropdown-content__list"><a class="dropdown-content__anchor" href="#">Bonsai Workflow</a>
+                        <li class="dropdown-content__list without__border"><a class="dropdown-content__anchor" href="#">Bonsai Workflow</a>
                         <span class="dropdown-content__description">Organize your business & look professional</span>
                         </li>
-                        <li class="dropdown-content__list"><a class="dropdown-content__anchor" href="#">Bonsai Tax</a>
+                        <li class="dropdown-content__list without__border"><a class="dropdown-content__anchor" href="#">Bonsai Tax</a>
                         <span class="dropdown-content__description">Maximize write-offs, and estimate and save for 1099 taxes</span>
                         </li>
-                        <li class="dropdown-content__list"><a class="dropdown-content__anchor" href="#">Bonsai Cash</a>
+                        <li class="dropdown-content__list without__border"><a class="dropdown-content__anchor" href="#">Bonsai Cash</a>
                         <span class="dropdown-content__description">Manage your money with a no-fee business account</span>
                         </li>
                     </div>
                   </div>
                   <div class="dropdown">
-                    <li>Templates <img class="dropdown__IMG" src="assets/down.PNG" alt=""></li>
+                    <li class="dropdown__fourMainList">Templates <img class="dropdown__IMG" src="assets/down.PNG" alt=""></li>
                     
                     <div class="dropdown-content">
                       <li id="list--without__border"><img src="assets/contract.png" alt="" class="dropdown__contract"><a href="#">Contract Templates</a></li>
@@ -56,43 +56,45 @@
                       <li id="list--without__border"><img src="assets/contract.png" alt="" class="dropdown__contract"><a href="#">Scope of Work Templates</a></li>
                     </div>
                   </div>
-                <li>Pricing</li>
-                <li>Reviews</li>
+                <li class="dropdown__fourMainList">Pricing</li>
+                <li class="dropdown__fourMainList">Reviews</li>
             </ul>
         </div>
         <div class="navbar__login navbar__div">
             <a href="#"><span>LOG IN</span></a>
         </div>
         <div class="navbar__startSpan navbar__div">
-            <a href="#"><span>START FREE</span></a>
+            <a href="#"><span id="startSpan">START FREE</span></a>
         </div>
     </aside>
-
-    <main>
-        <img class="heroImage" src="assets/heroImage.png" alt="">
-        <h1>Everything you need to run your business.</h1>
-        <p>Bonsai's all-in-one product suite with smart automation lets you focus on your passion, not your paperwork.</p>
-        <form id="emailSubmit" action="">
-            <input type="text" placeholder="Enter your email" name="emailInput">
-            <button type="submit">START FREE</button>
-        </form>
-    </main>
-
-    <section class="bonsaiH2">
-        <h2>Make more, manage less</h2>
-        <p>Bonsai integrates and automates every step of your business so it runs seamlessly - from proposal to tex season</p>
-        <h3>Without Bonsai</h3>
-        <img src="assets//withoutBonsai.svg" alt="">
-        <h3>With Bonsai</h3>
-        <img src="assets/withBonsai.svg" alt="">
-        <div class="proposal--anchor">
-            <a href="#">
-                <img src="assets/contract.png" alt="">
-                <span>Proposals</span>
-                <img id="right" src="assets/right.png" alt="">
-            </a>
-        </div>
-    </section>
+    <div class="mainContent">
+        <main>
+            <img class="heroImage" src="assets/heroImage.png" alt="">
+            <h1>Everything you need to run your business.</h1>
+            <p>Bonsai's all-in-one product suite with smart automation lets you focus on your passion, not your paperwork.</p>
+            <form id="emailSubmit" action="">
+                <input type="text" placeholder="Enter your email" name="emailInput">
+                <button type="submit">START FREE</button>
+            </form>
+        </main>
+    
+        <section class="bonsaiH2">
+            <h2>Make more, manage less</h2>
+            <p>Bonsai integrates and automates every step of your business so it runs seamlessly - from proposal to tex season</p>
+            <h3>Without Bonsai</h3>
+            <img src="assets//withoutBonsai.svg" alt="">
+            <h3>With Bonsai</h3>
+            <img src="assets/withBonsai.svg" alt="">
+            <div class="proposal--anchor">
+                <a href="#">
+                    <img src="assets/contract.png" alt="">
+                    <span>Proposals</span>
+                    <img id="right" src="assets/right.png" alt="">
+                </a>
+            </div>
+        </section>
+    </div>
+    
     
     <script src="js/main.js"></script>
 </body>

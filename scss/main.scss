@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fcfafa;
+    background-color: $primary--background;
 }
 
 html{
@@ -94,7 +94,7 @@ nav {
     position: absolute;
     height: 92.5vh;
     z-index : 5;
-    background-color: $primary--white;
+    background-color: $primary--background;
     @include transition-ease;
 
 
@@ -105,11 +105,20 @@ nav {
         margin-top: 10%;
         @include transition-ease;
 
+        .dropdown__fourMainList:hover {
+            opacity: 0.85;
+            color: $primary--green;
+        }
+
         .dropdown-content {
             display: none;
             min-width: 100%;
             z-index: 1;
             @include transition-ease;
+
+            & .without__border {
+                border: none;
+            }
 
             & .dropdown__contract {
                 height: 6%;
@@ -198,6 +207,11 @@ nav {
         
         & a {
             color: $primary--white;
+            background-color: $primary--green;
+        }
+
+        & #startSpan {
+            background-color: $primary--green;
         }
     }
 }
@@ -296,6 +310,7 @@ main {
             flex-flow: row nowrap;
             align-items: center;
             column-gap: 2rem;
+            color: black;
             background-color: $primary--white;
 
             & span {
