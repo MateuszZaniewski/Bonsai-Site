@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: $primary--background;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html{
@@ -111,7 +112,6 @@ nav {
         }
 
         .dropdown-content {
-            display: none;
             min-width: 100%;
             z-index: 1;
             @include transition-ease;
@@ -145,10 +145,10 @@ nav {
           }
 
         
-          .dropdown:hover .dropdown-content {
-            display: block;
-            @include transition-ease;
-          }
+        //   .dropdown:hover .dropdown-content {
+        //     display: block;
+        //     @include transition-ease;
+        //   }
 
         & ul {
             list-style: none;
@@ -220,7 +220,6 @@ nav {
 main {
     width: 90%;
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
     
 
     & .heroImage {
@@ -269,7 +268,6 @@ main {
 
 .bonsaiH2 {
     padding-top: 8rem;
-    font-family: 'Montserrat', sans-serif;
     width: 90%;
     margin: 0 auto;
     
@@ -295,16 +293,60 @@ main {
         max-width: 95%;
     }
 
+}
+
+
+.winMoreWorkSection {
+
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+
+    & h2 {
+        font-size: 2.2rem;
+        text-align: left;
+    }
+
+    & p {
+        font-size: 1.6rem;
+        text-align: left;
+        padding-top: 5%;
+    }
+
+    & img {
+        max-width: 100%;
+        padding-bottom: 5%;
+    }
+
+    & a {
+        color: $primary--green;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+        
+
+        & span {
+            scale: 1.2;
+        }
+    }
+
+    & .proposalList {
+        list-style: none;
+    }
+
     & .proposal--anchor {
         margin: 5% 5%;
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-between;
         padding: 0.5rem 2rem;
         background-color: $primary--white;
+        border-radius: 1rem;
+        padding: 2rem 2.5rem;
 
-        & a {
+        & div {
             text-decoration: none;
             display: flex;
             flex-flow: row nowrap;
@@ -315,18 +357,18 @@ main {
 
             & span {
                 font-size: 1.8rem;
-                width: 40%;
                 background-color: $primary--white;
             }
 
             & #right {
-                padding-left: 50%;
+                float: right;
                 background-color: $primary--white;
-                justify-self: flex-end;
+                padding: 0;
+                width: auto;
             }
         }
 
         
-    }
+    }   
 
 }

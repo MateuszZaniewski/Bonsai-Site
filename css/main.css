@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #fcfafa;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -92,7 +93,6 @@ nav .hamburger--Menu.open::after {
   color: #00b289;
 }
 .menu--mobile .navbar__category .dropdown-content {
-  display: none;
   min-width: 100%;
   z-index: 1;
   transition: all 0.5s ease-in-out;
@@ -118,10 +118,6 @@ nav .hamburger--Menu.open::after {
   display: block;
   text-align: left;
   font-weight: bold;
-  transition: all 0.5s ease-in-out;
-}
-.menu--mobile .navbar__category .dropdown:hover .dropdown-content {
-  display: block;
   transition: all 0.5s ease-in-out;
 }
 .menu--mobile .navbar__category ul {
@@ -179,7 +175,6 @@ nav .hamburger--Menu.open::after {
 main {
   width: 90%;
   margin: 0 auto;
-  font-family: "Montserrat", sans-serif;
 }
 main .heroImage {
   width: 100%;
@@ -218,7 +213,6 @@ main #emailSubmit button {
 
 .bonsaiH2 {
   padding-top: 8rem;
-  font-family: "Montserrat", sans-serif;
   width: 90%;
   margin: 0 auto;
 }
@@ -239,16 +233,50 @@ main #emailSubmit button {
 .bonsaiH2 img {
   max-width: 95%;
 }
-.bonsaiH2 .proposal--anchor {
+
+.winMoreWorkSection {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.winMoreWorkSection h2 {
+  font-size: 2.2rem;
+  text-align: left;
+}
+.winMoreWorkSection p {
+  font-size: 1.6rem;
+  text-align: left;
+  padding-top: 5%;
+}
+.winMoreWorkSection img {
+  max-width: 100%;
+  padding-bottom: 5%;
+}
+.winMoreWorkSection a {
+  color: #00b289;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.winMoreWorkSection a span {
+  scale: 1.2;
+}
+.winMoreWorkSection .proposalList {
+  list-style: none;
+}
+.winMoreWorkSection .proposal--anchor {
   margin: 5% 5%;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 0.5rem 2rem;
   background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem 2.5rem;
 }
-.bonsaiH2 .proposal--anchor a {
+.winMoreWorkSection .proposal--anchor div {
   text-decoration: none;
   display: flex;
   flex-flow: row nowrap;
@@ -258,13 +286,13 @@ main #emailSubmit button {
   color: black;
   background-color: #ffffff;
 }
-.bonsaiH2 .proposal--anchor a span {
+.winMoreWorkSection .proposal--anchor div span {
   font-size: 1.8rem;
-  width: 40%;
   background-color: #ffffff;
 }
-.bonsaiH2 .proposal--anchor a #right {
-  padding-left: 50%;
+.winMoreWorkSection .proposal--anchor div #right {
+  float: right;
   background-color: #ffffff;
-  justify-self: flex-end;
+  padding: 0;
+  width: auto;
 }/*# sourceMappingURL=main.css.map */
