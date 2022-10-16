@@ -372,3 +372,112 @@ main {
     }   
 
 }
+
+
+.information {
+    width: 90%;
+    margin: 0 auto;
+
+    h2 {
+        font-size: 2.2rem;
+        text-align: center;
+        line-height: 32px;
+        padding-bottom: 2rem;
+    }
+
+    & #information--paragraph{
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 15%;
+    }
+
+    .information--container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        padding: 8% 0;
+    }
+
+    p {
+        font-size: 1.6rem;
+        padding-bottom: 5%;
+        font-weight: lighter;
+    }
+}
+
+
+.beforeFooter {
+    padding-top: 15%;
+    width: 100%;
+    background-color: $information-background;
+
+    h2 {
+        font-size: 3.2rem;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        line-height: 52px;
+        background-color: $information-background;
+
+        span {
+            background-color: $information-background;
+            color: $primary--green;
+        }
+    }
+
+    div {
+
+        width: 90%;
+        text-align: center;
+        margin: 4% auto;
+        background-color: $information-background;
+
+        button {
+            padding: 1.5rem 1.4rem;
+            border: 1px solid $primary--green;
+            background-color: $primary--green;
+            color: $primary--white;
+            border-radius: 0.5rem;
+            margin: 2% auto;
+            align-content: center;
+            
+        }
+    }
+    
+
+}
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10%;
+
+    h3 {
+        font-size: 1.6rem;
+        padding: 9% 0 4% 0;
+    }
+
+    ul {
+        list-style: none;
+        
+
+        li {
+            padding: 2% 0;
+
+            a {
+                text-decoration: none;
+                font-size: 1.4rem;
+
+                &:hover{
+                    color: $primary--green;
+                }
+            }
+        }
+    }
+}
+
+
