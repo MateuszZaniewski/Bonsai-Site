@@ -382,4 +382,20 @@ footer ul li a {
 }
 footer ul li a:hover {
   color: #00b289;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 990px) {
+  * {
+    background: pink;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1366px) {
+  * {
+    background: yellow;
+  }
+}
+@media only screen and (min-width: 1367px) {
+  * {
+    background: green;
+  }
 }/*# sourceMappingURL=main.css.map */
